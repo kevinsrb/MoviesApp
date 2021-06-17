@@ -1,4 +1,4 @@
-import { mongoose } from "mongoose";
+import mongoose from "mongoose";
 
 //Conexión a la base de datos MongoDB
 mongoose.Promise=global.Promise;
