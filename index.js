@@ -12,7 +12,7 @@ const express = require('express')
 const morgan = require('morgan')
 const cors = require('cors')
 const path = require('path')
-const router = require('./router')
+const router = require('./router/index.js')
 
 const app=express();
 require('./database');
