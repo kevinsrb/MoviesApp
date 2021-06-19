@@ -1,4 +1,8 @@
-import mongoose,{Schema} from 'mongoose';
+//import mongoose,{Schema} from 'mongoose';
+
+const mongoose = require('mongoose')
+const {Schema} = require('mongoose')
+
 const MovieSchema = new Schema({
     clasification: {type: Schema.ObjectId, ref:'clasification'},
     name: {

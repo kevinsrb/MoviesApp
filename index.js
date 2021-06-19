@@ -2,11 +2,17 @@ if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config();
 }
 
-import express from 'express';
-import morgan from 'morgan';
-import cors from 'cors';
-import path from 'path';
-import router from './routes';
+// import express from 'express';
+// import morgan from 'morgan';
+// import cors from 'cors';
+// import path from 'path';
+// import router from './routes';
+
+const express = require('express')
+const morgan = require('morgan')
+const cors = require('cors')
+const path = require('path')
+const router = require('./router')
 
 const app=express();
 require('./database');
