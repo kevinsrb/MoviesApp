@@ -1,6 +1,6 @@
 import routerx from 'express-promise-router';
-import clasificacionRouter from './clasification';
-import movieRouter from './movie';
+const clasificacionRouter = require('./clasification')
+const movieRouter = require('./movie')
 
 const router=routerx();
 
