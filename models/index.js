@@ -1,5 +1,5 @@
-const Clasification = require('./clasification')
-const Movie = require('./movie')
+import Clasification from './clasification';
+import Movie from './movie';
 
 export default {
     Clasification,

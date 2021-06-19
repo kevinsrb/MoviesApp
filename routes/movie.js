@@ -1,5 +1,5 @@
 import routerx from 'express-promise-router';
-const movieController = require('../controllers/MovieController')
+import movieController from '../controllers/MovieController';
 
 const router=routerx();
 

@@ -1,4 +1,4 @@
-const models = require('../models')
+import models from '../models';
 export default {
     add: async (req,res,next) =>{
         try {
