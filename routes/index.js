@@ -1,5 +1,5 @@
 import routerx from 'express-promise-router';
-import clasificacionRouter from './clasification';s
+import clasificacionRouter from './clasification';
 import movieRouter from './movie';
 
 const router=routerx();
