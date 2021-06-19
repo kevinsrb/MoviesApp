@@ -6,7 +6,7 @@ import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
 import path from 'path';
-const router = require('./routes');
+import router from './routes';
 
 const app=express();
 require('./database');
