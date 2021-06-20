@@ -10,4 +10,6 @@ const router=routerx();
 
 router.use('/Clasificacion',clasificacionRouter);
 router.use('/Peliculas',movieRouter);
-export default router;
+
+
+module.export = router;

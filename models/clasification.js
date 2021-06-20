@@ -13,4 +13,4 @@ const clasificationSchema = new Schema({
 
 const clasification = mongoose.model('clasification',clasificationSchema);
 
-export default clasification;
+module.export = clasification;

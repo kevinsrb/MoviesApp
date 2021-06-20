@@ -12,4 +12,4 @@ router.delete('/:id',clasificationController.remove);
 router.put('/activate',clasificationController.activate);
 router.put('/deactivate',clasificationController.deactivate);
 
-export default router;
+module.export = router;

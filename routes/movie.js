@@ -12,4 +12,4 @@ router.delete('/:id',movieController.remove);
 router.put('/activate',movieController.activate);
 router.put('/deactivate',movieController.deactivate);
 
-export default router;
+module.export = router;
