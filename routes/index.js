@@ -3,8 +3,8 @@
 // import movieRouter from './movie';
 
 const routerx = require('express-promise-router')
-const clasificacionRouter = require('./clasification')
-const movieRouter = require('./movie')
+const clasificacionRouter = require('./clasification.js')
+const movieRouter = require('./movie.js')
 
 const router=routerx();
 
