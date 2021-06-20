@@ -1,6 +1,6 @@
 //import routerx from 'express-promise-router';
 const routerx = require('express-promise-router')
-const clasificationController = require('../controllers/clasificationController')
+const clasificationController = require('../controllers/ClasificationController')
 
 const router=routerx();
 
