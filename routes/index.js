@@ -2,7 +2,7 @@
 // import clasificacionRouter from './clasification';
 // import movieRouter from './movie';
 
-const routerx = require("express-promise-router")
+const routerx = require('express-promise-router')
 const clasificationRouter = require('./clasification.js')
 const movieRouter = require('./movie.js')
 
