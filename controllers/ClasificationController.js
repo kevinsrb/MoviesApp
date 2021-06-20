@@ -1,5 +1,5 @@
 const models = require('../models')
-export default {
+module.export = {
     add: async (req,res,next) =>{
         try {
             console.log(req.body)
