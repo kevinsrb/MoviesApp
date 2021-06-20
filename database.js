@@ -1,4 +1,5 @@
-import mongoose from "mongoose";
+//import mongoose from "mongoose";
+const mongoose = require('mongoose')
 
 //Conexión a la base de datos MongoDB
 mongoose.Promise=global.Promise;
