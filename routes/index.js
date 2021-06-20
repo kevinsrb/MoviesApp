@@ -2,7 +2,7 @@
 // import clasificacionRouter from './clasification';
 // import movieRouter from './movie';
 
-const routerx = require('express-promise-router')
+let routerx = require('express-promise-router')
 const clasificationRouter = require('./clasification.js')
 const movieRouter = require('./movie.js')
 
@@ -12,4 +12,4 @@ router.use('/Clasificacion',clasificationRouter);
 router.use('/Peliculas',movieRouter);
 
 
-module.export = router;
+module.exports = router;

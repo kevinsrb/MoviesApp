@@ -1,5 +1,5 @@
 const models = require('../models')
-module.export = {
+module.exports = {
     add: async (req,res,next) =>{
         try {
             const reg = await models.Movie.create(req.body);
